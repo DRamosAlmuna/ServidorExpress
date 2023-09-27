@@ -1,0 +1,20 @@
+[
+  {
+    "id": 2,
+    "title": "prueba2",
+    "description": "prueba22",
+    "price": 999,
+    "thumbnail": "imagen2.jpg",
+    "code": "P2",
+    "stock": 99
+  },
+  {
+    "id": 3,
+    "title": "prueba3",
+    "description": "prueba33",
+    "price": 999,
+    "thumbnail": "imagen3.jpg",
+    "code": "P3",
+    "stock": 99
+  }
+]

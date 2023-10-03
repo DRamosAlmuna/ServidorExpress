@@ -61,8 +61,7 @@
     "thumbnail": "imagen7.jpg",
     "code": "P7",
     "stock": 77
-  }
-  ,
+  },
   {
     "id": 8,
     "title": "prueba8",
@@ -89,5 +88,14 @@
     "thumbnail": "imagen10.jpg",
     "code": "P10",
     "stock": 1010
+  },
+  {
+    "id": 11,
+    "title": "Producto 11",
+    "description": "11",
+    "price": 1111,
+    "thumbnail": "imagen11.jpg",
+    "code": "P11",
+    "stock": 1111
   }
 ]

@@ -1,4 +1,4 @@
-const fs = require('fs');
+import fs from 'fs';
 
 class ProductManager {
   constructor(filePath) {
@@ -83,5 +83,22 @@ class ProductManager {
 }
 
 const productManager = new ProductManager('productos.json');
-module.exports = ProductManager;
+export default productManager;
 
+/** Ejemplo
+ 
+const newProduct = {
+  id: 11,
+  title: 'Producto 11',
+  description: '11',
+  price: 1111,
+  thumbnail: 'imagen11.jpg',
+  code: 'P11',
+  stock: 11
+
+};
+
+
+productManager.addProduct(newProduct);
+
+*/
